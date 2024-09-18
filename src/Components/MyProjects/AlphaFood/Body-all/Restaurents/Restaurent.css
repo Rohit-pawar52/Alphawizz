@@ -1,0 +1,94 @@
+.restro-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-left: 105px;
+  }
+  
+  .restro-button {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .restro-button button {
+    border: 2px solid;
+    background-color: rgb(140, 140, 146);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer; 
+    border-radius: 5px; 
+  }
+  
+  .restro-button button:hover {
+    background-color: #34339c;
+  }
+
+  .card-container-restro {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center; 
+    padding:0px 50px 50px 50px;
+  }
+  
+  .card-restro {
+    width: 28%; 
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover; 
+  }
+  
+  .card-info {
+    padding: 10px;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .card-header h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .card-rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+  }
+  
+  .card-rating svg {
+    color: #FFD700;
+  }
+  
+  .card-type {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .card-location {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .card-location svg {
+    color: #000;
+  }
+  
+  

@@ -1,0 +1,13 @@
+.category-alpha {
+  height: 30vh;
+  background: url("Images/Alpha-slider/pizza.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: right;
+}
+
+a{
+  text-decoration: none;
+  /* background-color: black; */
+}

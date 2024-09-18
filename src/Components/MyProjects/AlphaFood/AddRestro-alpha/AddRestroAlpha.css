@@ -1,0 +1,98 @@
+.add-restro1{
+    display: flex;
+    height: 40vh;
+    justify-content: space-between;
+}
+
+.left-restro-content{
+    padding:20px 100px;
+
+}
+
+.button-restro1{
+border: 2px solid;
+border-radius: 5px;
+background-color: black;
+color: white;
+padding: 10px;
+}
+
+.right-restro-content{
+    background-color: rgb(134, 35, 35);
+    padding: 20px 200px;
+    border-top-left-radius: 300px;
+}
+
+.add-restro2{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: rgb(245, 214, 219);
+    margin: 30px 100px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.add-restro2-content{
+    width: 30%;
+}
+
+.icon123{
+    color: rgb(255, 29, 17);
+}
+
+.add-restro3{
+    background-color: rgb(37, 32, 32);
+    height: 60vh;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.add-restro3-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 30px;
+}
+
+.add-restro3-content{
+    background-color: rgb(122, 112, 112);
+    font-size: x-large;
+    gap: 10px;
+    border-radius: 5px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.add-restro3-content p{
+    padding:0px 5px;
+    line-height: 25px;
+}
+
+.icon-restro3{
+    font-size: 50px;
+    color: rgb(196, 74, 68);
+}
+
+.add-restro4{
+    padding:30px 150px;
+}
+
+.order-process{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.order-process-content{
+    text-align: center;
+    width: 30%;
+}
+
+.order-process-content div{
+    font-size: 60px;
+}

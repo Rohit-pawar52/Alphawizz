@@ -1,0 +1,65 @@
+.register-form-alpha{
+    display: flex;
+    padding: 10px 100px;
+    justify-content: space-around;
+}
+
+.register-form-left{
+    padding:6px 70px;
+    margin-right: -50px;
+}
+
+.login-button-alpha{
+    padding: 6px 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.register-button-alpha{
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: red;
+}
+
+.input-button-register{
+    border: 1px solid grey;
+    width: 100%;
+    margin-top: 2px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.login-otp-button{
+    background-color: black;
+    color: white;
+    border: 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 6px;
+    margin: 10px 0px;
+}
+
+.logoandtext {
+    display: flex;
+  }
+  
+  .img-logo-register {
+    width: 60px;
+    height: 50px;
+    padding: 10px;
+    margin-right: -8px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
+  
+  .h1-text {
+    margin-bottom: -5px;
+    font-weight: bolder;
+    color: black;
+  }
+  .h2-text {
+    color: black;
+    margin-bottom: -9px;
+    font-size: smaller;
+  }

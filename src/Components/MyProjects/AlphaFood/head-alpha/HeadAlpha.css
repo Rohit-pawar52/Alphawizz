@@ -1,0 +1,113 @@
+.header-alpha {
+  /* background-color: rgb(92, 91, 101); */
+  height: 12vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logoandtext {
+  display: flex;
+}
+
+.img-logo {
+  width: 80px;
+  height: 60px;
+  padding: 10px;
+  margin-right: -8px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.h1-text {
+  margin-bottom: -5px;
+  font-weight: bolder;
+  color: black;
+}
+.h2-text {
+  color: black;
+  margin-bottom: -9px;
+  font-size: smaller;
+}
+
+.search-location-restro {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.search-location-restro div {
+  cursor: pointer;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.location-alpha,
+.searchrestro-alpha {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.separator {
+  margin: 0 10px;
+  color: #888;
+}
+
+.search-location-restro input {
+  margin-left: 8px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.addrestro-alpha {
+  border: 2px solid rgb(235, 112, 112);
+  padding: 5px;
+  display: inline-flex;
+  align-items: center;
+  color: rgb(235, 112, 112);
+  background-color: white;
+  border-radius: 7px;
+  margin-left: 100px;
+}
+
+.addrestro-alpha button {
+  background-color: white;
+  color: rgb(235, 112, 112);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+.cart-alpha span {
+  margin-left: 12px;
+  font-size:medium;
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.auth-buttons .separator {
+  margin: 0 10px;
+  color: black;
+}
+
+.auth-buttons button {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}

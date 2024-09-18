@@ -1,0 +1,123 @@
+.footer-alpha1{
+    background-color: rgb(221, 11, 11);
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.logoandtext {
+  display: flex;
+}
+
+.img-logo {
+  width: 80px;
+  height: 60px;
+  padding: 10px;
+  margin-right: -8px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.h1-text {
+  margin-bottom: -5px;
+  font-weight: bolder;
+}
+.h2-text {
+  margin-bottom: -9px;
+  font-size: smaller;
+}
+
+.logo-foot{
+  padding-left: 100px;
+}
+
+.foot-text{
+  padding-right:30px;
+  margin-top: 20px;
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 15px; 
+  }
+  
+  .icon {
+    font-size: 34px; 
+    color: black;
+    transition: color 0.3s ease; 
+  }
+  
+  .icon:hover {
+    color: #1DA1F2; 
+  }
+
+  .foot-text-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 600px;
+  }
+
+
+  /* Footer second */
+
+  .footer-alpha2{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(36, 32, 32);
+  }
+
+  .footer-content{
+    padding-left: 10px;
+    width: 21%;
+    color: rgb(158, 140, 140);
+    font-size: smaller;
+  }
+  .footer-content h5{
+    color: white;;
+  }
+
+  .footer-err{
+    background-color: rgb(36, 32, 32);
+    padding-top: 25px;
+  }
+
+  .copyright{
+    font-size: small;
+    padding-bottom: 10px;
+  }
+
+  .app-download {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .apple, .android{
+    border: 2px solid white;
+    display: flex;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .apple svg, .android svg {
+    font-size: 30px; 
+    margin-right: 8px;
+  }
+  
+  .apple span, .android span {
+    font-size: 14px;
+    color: #333; 
+  }
+
+.small-text{
+  font-size: xx-small;
+  margin-bottom: -5px;
+}
+
+.fw-bold1{
+  margin-bottom: -15px;
+  font-size: small;
+}
+  

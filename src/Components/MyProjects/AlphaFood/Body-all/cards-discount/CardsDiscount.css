@@ -1,0 +1,43 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  padding: 50px;
+  background-color: rgb(247, 168, 168);
+}
+
+.card {
+  width: 28%;
+  height: 40vh; 
+  background-size: 150px 100px;
+  background-repeat: no-repeat;
+  background-position: bottom right; 
+  border-radius: 10px;
+  position: relative; 
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: red;
+}
+
+.card p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.card2{
+  background-color: rgb(195, 29, 29);
+}
+
+.card2 h2{
+  color: yellow;
+}
